@@ -10,62 +10,62 @@ The following results were obtained for the fitting of the datasets using the se
 Unfiltered:
 
 Oversampling with Random Oversampler: 
-Accuracy Score: 0.7237
-Low_Risk Precision Score: 1.00
-Low_Risk Recall Score: 0.72
-High_Risk Precision Score: 0.02 
-High_Risk Recall Score: 0.72
+- Accuracy Score: 0.7237
+- Low_Risk Precision Score: 1.00
+- Low_Risk Recall Score: 0.72
+- High_Risk Precision Score: 0.02 
+- High_Risk Recall Score: 0.72
 
 Oversampling with SMOTE: 
-Accuracy Score: 0.7253
-Low_Risk Precision Score: 1.00
-Low_Risk Recall Score: 0.73
-High_Risk Precision Score: 0.02 
-High_Risk Recall Score: 0.72
+- Accuracy Score: 0.7253
+- Low_Risk Precision Score: 1.00
+- Low_Risk Recall Score: 0.73
+- High_Risk Precision Score: 0.02 
+- High_Risk Recall Score: 0.72
 
 Undersampling with Cluster Centroid Algorithmn: 
-Accuracy Score: 0.7016
-Low_Risk Precision Score: 1.00
-Low_Risk Recall Score: 0.66
-High_Risk Precision Score: 0.01 
-High_Risk Recall Score: 0.74
+- Accuracy Score: 0.7016
+- Low_Risk Precision Score: 1.00
+- Low_Risk Recall Score: 0.66
+- High_Risk Precision Score: 0.01 
+- High_Risk Recall Score: 0.74
 
 Over/Undersampling with SMOTEENN: 
-Accuracy Score: 0.7391
-Low_Risk Precision Score: 1.00
-Low_Risk Recall Score: 0.73
-High_Risk Precision Score: 0.02 
-High_Risk Recall Score: 0.75
+- Accuracy Score: 0.7391
+- Low_Risk Precision Score: 1.00
+- Low_Risk Recall Score: 0.73
+- High_Risk Precision Score: 0.02 
+- High_Risk Recall Score: 0.75
 
 Filtered:
 
 Oversampling with Random Oversampler: 
-Accuracy Score: 0.7233
-Low_Risk Precision Score: 1.00
-Low_Risk Recall Score: 0.72
-High_Risk Precision Score: 0.02 
-High_Risk Recall Score: 0.72
+- Accuracy Score: 0.7233
+- Low_Risk Precision Score: 1.00
+- Low_Risk Recall Score: 0.72
+- High_Risk Precision Score: 0.02 
+- High_Risk Recall Score: 0.72
 
 Oversampling with SMOTE: 
-Accuracy Score: 0.7307
-Low_Risk Precision Score: 1.00
-Low_Risk Recall Score: 0.73
-High_Risk Precision Score: 0.02 
-High_Risk Recall Score: 0.73
+- Accuracy Score: 0.7307
+- Low_Risk Precision Score: 1.00
+- Low_Risk Recall Score: 0.73
+- High_Risk Precision Score: 0.02 
+- High_Risk Recall Score: 0.73
 
 Undersampling with Cluster Centroid Algorithmn: 
-Accuracy Score: 0.7024
-Low_Risk Precision Score: 1.00
-Low_Risk Recall Score: 0.66
-High_Risk Precision Score: 0.01 
-High_Risk Recall Score: 0.74
+- Accuracy Score: 0.7024
+- Low_Risk Precision Score: 1.00
+- Low_Risk Recall Score: 0.66
+- High_Risk Precision Score: 0.01 
+- High_Risk Recall Score: 0.74
 
 Over/Undersampling with SMOTEENN: 
-Accuracy Score: 0.7395
-Low_Risk Precision Score: 1.00
-Low_Risk Recall Score: 0.73
-High_Risk Precision Score: 0.02 
-High_Risk Recall Score: 0.75
+- Accuracy Score: 0.7395
+- Low_Risk Precision Score: 1.00
+- Low_Risk Recall Score: 0.73
+- High_Risk Precision Score: 0.02 
+- High_Risk Recall Score: 0.75
 
 As shown above, the filtered results performed better than the unfiltered results implying that the algorithmns of question may not be taking into account the redundancies within the data and as a result it is having a negative impact on the accuracy of the models. For a credit risk algorithmn, one would ideally want to be able to have the highest precision and recall numbers, but this isn't realistic. Instead, in order to operate the company in a low risk manner the 
 Section 2: 
@@ -73,32 +73,32 @@ Section 2:
 Unfiltered: 
 
 Balanced Random Forest Classifier: 
-Accuracy Score: 0.7334
-Low_Risk Precision Score: 1.00
-Low_Risk Recall Score: 0.84
-High_Risk Precision Score: 0.02 
-High_Risk Recall Score: 0.62
+- Accuracy Score: 0.7334
+- Low_Risk Precision Score: 1.00
+- Low_Risk Recall Score: 0.84
+- High_Risk Precision Score: 0.02 
+- High_Risk Recall Score: 0.62
 
 Easy Ensemble AdaBoost Classifier: 
-Accuracy Score: 0.9335
-Low_Risk Precision Score: 1.00
-Low_Risk Recall Score: 0.95
-High_Risk Precision Score: 0.09 
-High_Risk Recall Score: 0.92
+- Accuracy Score: 0.9335
+- Low_Risk Precision Score: 1.00
+- Low_Risk Recall Score: 0.95
+- High_Risk Precision Score: 0.09 
+- High_Risk Recall Score: 0.92
 
 Filtered: 
 
-Balanced Random Forest Classifier: 
-Accuracy Score: 0.7619
-Low_Risk Precision Score: 1.00
-Low_Risk Recall Score: 0.86
-High_Risk Precision Score: 0.03 
-High_Risk Recall Score: 0.66
+- Balanced Random Forest Classifier: 
+- Accuracy Score: 0.7619
+- Low_Risk Precision Score: 1.00
+- Low_Risk Recall Score: 0.86
+- High_Risk Precision Score: 0.03 
+- High_Risk Recall Score: 0.66
 
 Easy Ensemble AdaBoost Classifier: 
-Accuracy Score: 0.9335
-Low_Risk Precision Score: 1.00
-Low_Risk Recall Score: 0.95
-High_Risk Precision Score: 0.09 
-High_Risk Recall Score: 0.92
+- Accuracy Score: 0.9335
+- Low_Risk Precision Score: 1.00
+- Low_Risk Recall Score: 0.95
+- High_Risk Precision Score: 0.09 
+- High_Risk Recall Score: 0.92
 
