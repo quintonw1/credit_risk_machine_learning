@@ -67,7 +67,8 @@ Over/Undersampling with SMOTEENN:
 - High_Risk Precision Score: 0.02 
 - High_Risk Recall Score: 0.75
 
-As shown above, the filtered results performed better than the unfiltered results implying that the algorithmns of question may not be taking into account the redundancies within the data and as a result it is having a negative impact on the accuracy of the models. For a credit risk algorithmn, one would ideally want to be able to have the highest precision and recall numbers, but this isn't realistic. Instead, in order to operate the company in a low risk manner the 
+As shown above, the filtered results performed better than the unfiltered results implying that the algorithmns of question may not be taking into account the redundancies within the data and as a result it is having a negative impact on the accuracy of the models. For a credit risk algorithmn, one would ideally want to be able to have the highest precision and recall numbers, but this isn't realistic. Instead, in order to operate the company in a low risk manner, it is more important to have a model with a high recall number rather than precision since its more important to correctly predict a high risk case.
+
 Section 2: 
 
 Unfiltered: 
@@ -102,3 +103,6 @@ Easy Ensemble AdaBoost Classifier:
 - High_Risk Precision Score: 0.09 
 - High_Risk Recall Score: 0.92
 
+As shown above, the easy ensemble adaboost classifier method has the highest accuracy and highest recall/precision numbers. On an interesting note, the filtered and unfiltered data samples resulted in the same performance results which may imply a similar strategy within the latter algorithmn. 
+
+To summarize, the algortihmns with the highest recall scores should be chosen since it is more important to correctly predict a high risk loan application implying that the models that have the highest recall numbers should be chosen. This being the filtered SMOTEENN algorithmn, and the easy ensemble adaboost classifier.   
